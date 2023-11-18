@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    height: 800px;
+    background-image: linear-gradient(
+        to bottom right,
+        #8016e4 0%,
+        #6e599b 20%,
+        #915EFD 40%,
+        #712FFD 60%,
+        #BF41FA 80%,
+        #6b258b 100%
+    );
+}
+
+#login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 2s5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
